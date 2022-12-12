@@ -1,14 +1,17 @@
 <script>
-import Ejemplo from './components/Ejemplo.vue'
+import Navegacion from './components/Navegacion.vue'
+import Productos from './components/Productos.vue'
 
 export default {
   name: 'App',
   components: {
-    Ejemplo
+    Navegacion,
+    Productos
   }
 }
 </script>
 
 <template>
-  <Ejemplo/>
+  <Navegacion/>
+  <Productos/>
 </template>
