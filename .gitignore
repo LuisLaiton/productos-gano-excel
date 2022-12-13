@@ -9,8 +9,8 @@ lerna-debug.log*
 
 node_modules
 .DS_Store
-dist
-dist-ssr
+# dist
+# dist-ssr
 coverage
 *.local
 
@@ -26,3 +26,9 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+# Personal
+index.html
+package-lock.json
+package.json
+vite.config.js
