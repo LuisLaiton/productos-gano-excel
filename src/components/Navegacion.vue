@@ -15,14 +15,15 @@ let testimonios = [{
   href: '#mascotas',
   texto: 'Mascotas',
 }
-]
+],
+imagen = 'imagenes/productos/logo.png'
 </script>
 
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid mx-md-5">
       <a class="navbar-brand" href="#">
-        <img class="logo" src="src/components/imagenes/logo.ico" alt="logo">
+        <img class="logo" :src="imagen" alt="logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
