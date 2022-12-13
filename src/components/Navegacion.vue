@@ -16,7 +16,7 @@ let testimonios = [{
   texto: 'Mascotas',
 }
 ],
-imagen = 'imagenes/productos/logo.png'
+imagen = 'imagenes/logo.ico'
 </script>
 
 <template>

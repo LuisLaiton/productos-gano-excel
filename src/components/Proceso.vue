@@ -74,7 +74,7 @@ function mostrarEtapa(etapa) {
                         </div>
                         <div class="modal-body">
                             <h5>{{ mostrar.tiempo }}</h5>
-                            <p>{{ mostrar.info }}</p>
+                            <p v-html="mostrar.info"></p>
                         </div>
                     </div>
                 </div>
