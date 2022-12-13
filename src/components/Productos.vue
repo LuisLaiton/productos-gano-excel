@@ -6,7 +6,7 @@ let productos = [
     {
     id: '3_en_1',
     nombre: 'Ganocafe 3 en 1',
-    img: 'http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png',
+    img: 'src/components/imagenes/productos/ItemPic_11501.jpg',
     sachets: 20 + ' sachets',
     precioXMayor: '$87.800',
     precioXMenor: '$115.700',
@@ -26,7 +26,7 @@ let productos = [
 {
     id: 'Chocolate',
     nombre: 'Gano Schokolade',
-    img: 'http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png',
+    img: 'src/components/imagenes/productos/ItemPic_11502.jpg',
     sachets: 20 + ' sachets',
     precioXMayor: '$95.800',
     precioXMenor: '$123.700',
@@ -46,7 +46,7 @@ let productos = [
 {
     id: 'Te',
     nombre: 'Oleaf Gano Rooibos Drink',
-    img: 'http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png',
+    img: 'src/components/imagenes/productos/ItemPic_11504.jpg',
     sachets: 20 + ' sachets',
     precioXMayor: '$95.800',
     precioXMenor: '$123.700',
@@ -65,7 +65,7 @@ let productos = [
 {
     id: 'Tinto',
     nombre: 'Ganocafe Classic',
-    img: 'http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png',
+    img: 'src/components/imagenes/productos/ItemPic_11505.jpg',
     sachets: 30 + ' sachets',
     precioXMayor: '$87.800',
     precioXMenor: '$115.700',
@@ -85,7 +85,7 @@ let productos = [
 {
     id: 'Cereal',
     nombre: 'Gano C`Real Spirulina',
-    img: 'http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png',
+    img: 'src/components/imagenes/productos/ItemPic_11507.jpg',
     sachets: 15 + ' sachets',
     precioXMayor: '$95.800',
     precioXMenor: '$123.700',
@@ -104,7 +104,7 @@ let productos = [
 {
     id: 'Crema_dental',
     nombre: 'Gano Fresh Toothpaste',
-    img: 'http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png',
+    img: 'src/components/imagenes/productos/ItemPic_11302.jpg',
     sachets: 1,
     precioXMayor: '$59.900',
     precioXMenor: '79.800',
@@ -124,7 +124,7 @@ let productos = [
 {
     id: 'Jabon',
     nombre: 'Gano Transparent Soap',
-    img: 'http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png',
+    img: 'src/components/imagenes/productos/ItemPic_11303.jpg',
     sachets: 1,
     precioXMayor: '$67.900',
     precioXMenor: '$87.800',
@@ -144,7 +144,7 @@ let productos = [
 {
     id: 'Shampoo',
     nombre: 'Piel&Brillo Shampoo',
-    img: 'http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png',
+    img: 'src/components/imagenes/productos/ItemPic_11305.jpg',
     sachets: 300 + 'ml',
     precioXMayor: '$63.900',
     precioXMenor: '$83.800',
@@ -164,7 +164,7 @@ let productos = [
 {
     id: 'Acondicionador',
     nombre: 'Piel&Brillo Acondicionador',
-    img: 'http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png',
+    img: 'src/components/imagenes/productos/ItemPic_11306.jpg',
     sachets: 300 + 'ml',
     precioXMayor: '$63.900',
     precioXMenor: '$83.800',
@@ -184,7 +184,7 @@ let productos = [
 {
     id: 'Exfoliante',
     nombre: 'Piel&Brillo Exfoliante Corporal',
-    img: 'http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png',
+    img: 'src/components/imagenes/productos/ItemPic_11307.jpg',
     sachets: 300 + 'ml',
     precioXMayor: '$63.900',
     precioXMenor: '$83.800',
@@ -204,7 +204,7 @@ let productos = [
 {
     id: 'Ganoderma',
     nombre: 'Ganoderma Capsulas',
-    img: 'http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png',
+    img: 'src/components/imagenes/productos/ItemPic_11801.jpg',
     sachets: 90 + 'capsulas',
     precioXMayor: '$231.500',
     precioXMenor: '$279.300',
@@ -224,7 +224,7 @@ let productos = [
 {
     id: 'Excellium',
     nombre: 'Excellium Capsulas',
-    img: 'http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png',
+    img: 'src/components/imagenes/productos/ItemPic_11803.jpg',
     sachets: 90 + 'capsulas',
     precioXMayor: '$231.500',
     precioXMenor: '$279.300',
@@ -241,7 +241,7 @@ let productos = [
 {
     id: 'CordyGold',
     nombre: 'CordyGold Capsulas',
-    img: 'http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png',
+    img: 'src/components/imagenes/productos/ItemPic_11805.jpg',
     sachets: 60 + 'capsulas',
     precioXMayor: '$291.300',
     precioXMenor: '$351.100',
@@ -272,14 +272,14 @@ function infoProducto(producto) {
         <div class="card">
             <div class="scroll_horizontal">
                 <ul class="pagination card-header-pills">
-                    <li class="" v-for="item in productos">
+                    <li v-for="item in productos">
                         <button class="page-link" @click="infoProducto(item)">{{ item.id }}</button>
                     </li>
                 </ul>
             </div>
             <div class="card-body row g-4">
                 <div class="col-md-6">
-                    <img :src="mostrar.img" class="img-fluid rounded-start" alt="...">
+                    <img :src="mostrar.img" class="img-fluid rounded-start" :alt="mostrar.nombre">
                 </div>
                 <div class="col-md-6">
                     <h3 class="card-title">
