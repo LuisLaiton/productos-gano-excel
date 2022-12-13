@@ -26,9 +26,3 @@ coverage
 *.njsproj
 *.sln
 *.sw?
-
-# Personal
-index.html
-package-lock.json
-package.json
-vite.config.js
