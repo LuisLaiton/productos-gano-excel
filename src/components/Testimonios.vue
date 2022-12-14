@@ -14,7 +14,7 @@ let buscar = '',
         etiquetas: ['Dermatitis atópica', 'Dermatitis atopica', 'Dermatitis', 'Resequedad de la piel', 'Ronchas']
     },
     {
-        multimedia: '<video src="imagenes/testimonios/tEstreñimiento-AnaCano.mp4" controls poster="imagenes/testimonios/tEstreñimiento-AnaCano.png" class="img_card"></video>',
+        multimedia: '<video src="imagenes/testimonios/tEstrenimiento-AnaCano.mp4" controls poster="imagenes/testimonios/tEstrenimiento-AnaCano.png" class="img_card"></video>',
         texto: 'Me ha ayudado en problemas de colon irritable y estreñimiento. Ya que el café y en chocolate vienen con crema NO láctea puedo consumirlos todos los días evitando la pesadez y llenura',
         nombre: 'Ana Maria Cano',
         etiquetas: ['Colon irritable', 'Colon', 'Estreñimiento', 'Pesadez', 'Llenura']
