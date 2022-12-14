@@ -1,5 +1,6 @@
 <template>
-    <footer class="text-center text-white bg-dark py-3">
+    <div class="text-center text-white bg-dark py-3">
+    <hr>
     <p>
       <sub>
         Esta pagina web es elaborada por los distribuidores independientes de gano excel
@@ -14,5 +15,5 @@
         </em>
       </sub>
     </a>
-  </footer>
+  </div>
 </template>

@@ -37,18 +37,11 @@ imagen = 'imagenes/logo.ico'
           <li class="nav-item">
             <a class="nav-link" href="#etapas">¿Cómo actúa?</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#testimonios" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Testimonios
-            </a>
-            <ul class="dropdown-menu">
-              <li v-for="item in testimonios">
-                <a class="dropdown-item" :href="item.href">{{ item.texto }}</a>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Testimonios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Documentos</a>
+            <a class="nav-link disabled" href="#">Documentos</a>
           </li>
         </ul>
       </div>
