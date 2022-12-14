@@ -26,7 +26,8 @@ let buscar = '',
         etiquetas: ['Mascotas']
     },
     ],
-    listaMostrar = ref([])
+    listaMostrar = ref([]),
+    fondo = 'background-image: url("imagenes/fondo.png")'
 
 function mostrarTestimonios(todo) {
     listaMostrar.value = []
@@ -42,7 +43,7 @@ function mostrarTestimonios(todo) {
 }
 </script>
 <template>
-    <section id="testimonios" class="bg-dark">
+    <section id="testimonios" :style="fondo">
         <div class="container py-4">
             <nav class="navbar navbar-dark bg-dark">
                 <div class="container-fluid text-white">
@@ -98,9 +99,5 @@ function mostrarTestimonios(todo) {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-}
-
-#testimonios{
-    background-image: url("imagenes/fondo.png");
 }
 </style>
