@@ -45,11 +45,11 @@ function mostrarTestimonios(todo) {
 <template>
     <section id="testimonios" :style="fondo">
         <div class="container py-4">
-            <nav class="navbar navbar-dark bg-dark">
+            <nav class="navbar navbar-dark bg-dark sticky-top">
                 <div class="container-fluid text-white">
                     <h2>Testimonios</h2>
                     <div class="d-flex">
-                        <a class="mx-2 text-info" @click="mostrarTestimonios(true)">Mostrar todos</a>
+                        <a class="mx-2 text-info" @click="mostrarTestimonios(true)">Ver todos</a>
                         <input class="form-control me-2" type="search" placeholder="Ingresa una etiqueta"
                             v-model="buscar">
                         <button class="btn btn-outline-info" @click="mostrarTestimonios(false)">Buscar</button>
@@ -70,21 +70,8 @@ function mostrarTestimonios(todo) {
                             </div>
                         </div>
                     </div>
-                    <div v-if="listaMostrar == 0" class="card bg-white bg-opacity-50">
-                        <img src="https://via.placeholder.com/400" class="card-img-top img_card" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title placeholder-glow">
-                                <span class="placeholder col-6"></span>
-                            </h5>
-                            <p class="card-text placeholder-glow">
-                                <span class="placeholder col-7"></span>
-                                <span class="placeholder col-4"></span>
-                                <span class="placeholder col-4"></span>
-                                <span class="placeholder col-6"></span>
-                                <span class="placeholder col-8"></span>
-                            </p>
-                            <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
-                        </div>
+                    <div v-if="listaMostrar == 0" class="text-white p-3 bg-info bg-opacity-10 border border-info rounded w-100">
+                        <h4 class="d-flex justify-content-center">Ingresa una palabra clave valida para buscar</h4>
                     </div>
                 </div>
             </div>

@@ -20,7 +20,7 @@ imagen = 'imagenes/logo.ico'
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container-fluid mx-md-5">
       <a class="navbar-brand" href="#">
         <img class="logo" :src="imagen" alt="logo">
@@ -39,9 +39,6 @@ imagen = 'imagenes/logo.ico'
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#testimonios">Testimonios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Documentos</a>
           </li>
         </ul>
       </div>
