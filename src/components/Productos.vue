@@ -2,7 +2,45 @@
 import { ref } from 'vue'
 
 let productos = [
-    // 3_en_1
+    // Mocha
+    {
+    id: 'Mocha',
+    nombre: 'MochaRico',
+    img: 'imagenes/productos/ItemPic_11503_Nuevo.jpg',
+    sachets: 20 + ' sachets',
+    precioXMayor: '$95.800',
+    precioXMenor: '$123.700',
+    beneficios: ['Combate la <strong>irritabilidad</strong> y la <strong>ansiedad</strong>',
+        'Activa los receptores del cerebro que provocan <strong>placer y claridad mental</strong>',
+        '<strong>Favorece la concentración</strong>',
+        'Beneficia el <strong>tránsito instestinal</strong>',
+        'Aporta <strong>energía</strong> al cuerpo',
+        '<strong>Diurético natural</strong>',
+        'Propiedades <strong>anti-inflamatorias</strong>',
+        'Ayuda a controlar <strong>síntomas menstruales</strong>',
+        'Mejora la <strong>calidad del sueño</strong>',
+        'Aporta <strong>vitamina E, B1, B2 y minerales como el hierro, calcio, zinc, fósforo, potasio y magnesio</strong>',
+    ],
+},
+// Latte
+    {
+    id: 'Latte',
+    nombre: 'LatteRico',
+    img: 'imagenes/productos/ItemPic_11509_Nuevo.jpg',
+    sachets: 20 + ' sachets',
+    precioXMayor: '$95.800',
+    precioXMenor: '$123.700',
+    beneficios: ['Ayuda efectivamente en desórdenes metabólicos <strong>(Sobre peso, falta de apetito, úlceras)</strong>',
+        'Ayuda a tratar <strong>infecciones de orina, reumatismo, artritis y retención de líquidos</strong>',
+        'Mejora la <strong>circulación sanguínea</strong>',
+        'Ayuda a prevenir <strong>calambres</strong> y <strong>adormecimiento</strong> de extremidades',
+        'Favorece el tratamiento de problemas en <strong>colon, estreñimiento, hemorroides y colitis</strong>',
+        'Efectio coayudante en la <strong>diabetes</strong>',
+        '<strong>Diurético natural</strong>',
+        'Reduce la <strong>hipertensión arterial</strong>',
+    ],
+},
+// 3_en_1
     {
     id: '3_en_1',
     nombre: 'Ganocafe 3 en 1',
