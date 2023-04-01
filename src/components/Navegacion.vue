@@ -37,9 +37,9 @@ imagen = 'imagenes/logo.ico'
           <li class="nav-item">
             <a class="nav-link" href="#etapas">¿Cómo actúa?</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#testimonios">Testimonios</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
