@@ -22,7 +22,7 @@ export default {
   <body class="bg-light pt-5">
     <Productos/>
     <Proceso/>
-    <Testimonios/>
+    <!-- <Testimonios/> -->
   </body>
   <footer>
     <Final/>
