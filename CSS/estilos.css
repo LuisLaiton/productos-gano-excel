@@ -8,6 +8,8 @@
 header {
     background-color: var(--dark);
     display: flex;
+    position: sticky;
+    top: 0px;
 }
 
 main {
@@ -16,6 +18,16 @@ main {
 
 article {
     margin-bottom: 5%;
+}
+
+footer {
+    font-size:smaller;
+    color: var(--white);
+    background-color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
 }
 
 .logo {
@@ -95,4 +107,9 @@ article {
 }
 .etapas__item:hover {
     box-shadow: 0 0 10px var(--white) inset;
+}
+
+.foot__enlace {
+    text-decoration: none;
+    color: var(--green);
 }
