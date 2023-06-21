@@ -1,13 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="imagenes/logo.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo GanoTeam</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="imagenes/logo.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo GanoTeam</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+
+<body>
+
+  <header>
+    <img class="logo" src="imagenes/logo.ico" alt="logo GanoExcel">
+    <nav class="navBar">
+      <a href="#productos" class="navBar__item texto--blanco">Productos</a>
+      <a href="#etapas" class="navBar__item texto--blanco">¿Cómo actúa?</a>
+    </nav>
+  </header>
+  <main>
+    <section id="productos">
+      <h2>Productos</h2>
+      <article class="card-productos">
+        <div class="card-productos__navegacion">
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">Mocha</a>
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">Latte</a>
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">3 en 1</a>
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">Chocolate</a>
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">Te</a>
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">Tinto</a>
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">Cereal</a>
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">Crema dental</a>
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">Jabon</a>
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">Shampoo</a>
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">Acondicionador</a>
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">Exfoliante</a>
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">Ganoderma</a>
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">Excellium</a>
+          <a href="" class="card-productos__producto fondo--verde texto--blanco">CordyGold</a>
+        </div>
+        <div class="card-productos__contenido">
+          <img class="card-productos__imagen" src="imagenes/productos/ItemPic_11302.jpg" alt="">
+          <div class="card-productos__texto">
+            <h3 class="card-productos__titulo">Lorem, ipsum <sub>dolor.</sub></h3>
+            <ul class="card-productos__Beneficios">
+              <li>Lorem ipsum dolor sit amet consectetur.</li>
+              <li>Lorem ipsum dolor sit amet consectetur.</li>
+              <li>Lorem ipsum dolor sit amet consectetur.</li>
+              <li>Lorem ipsum dolor sit amet consectetur.</li>
+              <li>Lorem ipsum dolor sit amet consectetur.</li>
+              <li>Lorem ipsum dolor sit amet consectetur.</li>
+            </ul>
+            <div class="card-productos__precios">
+              <p>$00.000 / <sub>$000.000</sub></p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+  </footer>
+</body>
+
 </html>
