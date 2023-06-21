@@ -14,6 +14,10 @@ main {
     margin: 50px 5%;
 }
 
+article {
+    margin-bottom: 5%;
+}
+
 .logo {
     margin: 1% 3%;
     max-width: 70px;
@@ -33,7 +37,7 @@ main {
     margin-right: 2%;
 }
 
-.texto--blanco:hover{
+.texto--blanco:hover {
     color: var(--white);
 }
 
@@ -44,7 +48,7 @@ main {
 
 .card-productos__navegacion {
     display: flex;
-    overflow-x:scroll;
+    overflow-x: scroll;
 }
 
 .card-productos__producto {
@@ -71,4 +75,24 @@ main {
 .card-productos__texto {
     margin-left: 2%;
     margin-top: 2%;
+}
+
+.etapas {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.etapas__item {
+    border: 1px solid black;
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(40, 167, 69);
+    background: linear-gradient(0deg, rgba(40, 167, 69, 1) 0%, rgb(6, 118, 30) 100%);
+    color: var(--white)
+}
+.etapas__item:hover {
+    box-shadow: 0 0 10px var(--white) inset;
 }
