@@ -10,6 +10,7 @@ header {
     display: flex;
     position: sticky;
     top: 0px;
+    color: var(--light)
 }
 
 main {
@@ -21,7 +22,7 @@ article {
 }
 
 footer {
-    font-size:smaller;
+    font-size: smaller;
     color: var(--white);
     background-color: var(--dark);
     display: flex;
@@ -33,6 +34,7 @@ footer {
 .logo {
     margin: 1% 3%;
     max-width: 70px;
+    min-width: 40px;
     width: 4%;
 }
 
@@ -41,6 +43,10 @@ footer {
     margin-left: 10%;
     display: flex;
     align-items: center;
+}
+
+.navBar__menu-hamburguesa {
+    display: none;
 }
 
 .navBar__item {
@@ -77,16 +83,17 @@ footer {
 
 .card-productos__contenido {
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .card-productos__imagen {
     width: 50%;
+    height: 100%;
     border-radius: 0 0 0 5px;
 }
 
 .card-productos__texto {
-    margin-left: 2%;
-    margin-top: 2%;
+    margin: 2% auto auto 2%;
 }
 
 .etapas {
@@ -101,10 +108,11 @@ footer {
     padding: 10px 5%;
     display: flex;
     justify-content: space-between;
-    background: rgb(40, 167, 69);
+    background: var(--green);
     background: linear-gradient(0deg, rgba(40, 167, 69, 1) 0%, rgb(6, 118, 30) 100%);
     color: var(--white)
 }
+
 .etapas__item:hover {
     box-shadow: 0 0 10px var(--white) inset;
 }
@@ -112,4 +120,43 @@ footer {
 .foot__enlace {
     text-decoration: none;
     color: var(--green);
+}
+
+@media (max-width: 480px) {
+    
+    .navBar {
+        flex-grow: 2;
+        margin-right: 5%;
+        justify-content: end;
+    }
+    
+    .navBar--desplegar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .navBar__menu-hamburguesa {
+        display: block;
+    }
+
+    .navBar__item {
+        display: none;
+    }
+
+    .card-productos__contenido {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-productos__imagen {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .card-productos__texto {
+        margin: 15px;
+    }
 }
