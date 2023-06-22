@@ -1,8 +1,9 @@
+/* Definición de variables CSS */
 :root {
-    --dark: #1b1e21;
-    --light: #818182;
-    --white: white;
-    --green: #28a745;
+    --dark: #1b1e21;      /* Color oscuro */
+    --light: #818182;     /* Color claro */
+    --white: white;       /* Color blanco */
+    --green: #28a745;     /* Color verde */
 }
 
 header {
@@ -131,6 +132,7 @@ footer {
     color: var(--green);
 }
 
+/* Estilos para la versión móvil */
 @media (max-width: 480px) {
     
     .navBar {
