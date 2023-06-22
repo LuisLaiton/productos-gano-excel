@@ -20,7 +20,7 @@ $BTN_PRODUCTOS.forEach(element => {
 let productos;
 
 // Obtener datos del archivo JSON
-fetch('../DB/datos.json')
+fetch('https://raw.githubusercontent.com/LuisLaiton/productos-gano-excel/basica/DB/datos.json')
     .then(response => response.json())
     .then(data => {
         productos = data;
