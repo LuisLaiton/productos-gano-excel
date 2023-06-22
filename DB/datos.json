@@ -1,0 +1,280 @@
+{
+    "Mocha": {
+        "nombre": "MochaRico",
+        "cantidad": "20 sachets",
+        "beneficios": [
+            "Combate la <b>irritabilidad</b> y la <b>ansiedad</b>",
+            "Activa los receptores del cerebro que provocan <b>placer y claridad mental</b>",
+            "<b>Favorece la concentración</b>",
+            "Beneficia el <b>tránsito instestinal</b>",
+            "Aporta <b>energía</b> al cuerpo",
+            "<b>Diurético natural</b>",
+            "Propiedades <b>anti-inflamatorias</b>",
+            "Ayuda a controlar <b>síntomas menstruales</b>",
+            "Mejora la <b>calidad del sueño</b>",
+            "Aporta <b>vitamina E, B1, B2 y minerales como el hierro, calcio, zinc, fósforo, potasio y magnesio</b>"
+        ],
+        "imagen": "ItemPic_11503_Nuevo.jpg",
+        "precio_xMayor": "$95.800",
+        "precio_xMenor": "$123.700"
+    },
+    "Latte": {
+        "nombre": "LatteRico",
+        "cantidad": "20 sachets",
+        "beneficios": [
+            "Ayuda efectivamente en desórdenes metabólicos <b>(Sobre peso, falta de apetito, úlceras)</b>",
+            "Ayuda a tratar <b>infecciones de orina, reumatismo, artritis y retención de líquidos</b>",
+            "Mejora la <b>circulación sanguínea</b>",
+            "Ayuda a prevenir <b>calambres</b> y <b>adormecimiento</b> de extremidades",
+            "Favorece el tratamiento de problemas en <b>colon, estreñimiento, hemorroides y colitis</b>",
+            "Efectio coayudante en la <b>diabetes</b>",
+            "<b>Diurético natural</b>",
+            "Reduce la <b>hipertensión arterial</b>"
+        ],
+        "imagen": "ItemPic_11509_Nuevo.jpg",
+        "precio_xMayor": "$95.800",
+        "precio_xMenor": "$123.700"
+    },
+    "3_en_1": {
+        "nombre": "Ganocafe 3 en 1",
+        "cantidad": "20 sachets",
+        "beneficios": [
+            "Destruye <b>células cancerigenas</b>",
+            "Potencializa el <b>sistema inmunológico</b>",
+            "Mejora la <b>circulación sanguínea</b>",
+            "Efectivo contra la <b>ansiedad</b>",
+            "Ayuda a evitar <b>hepatitis, bronquitis, asma, gripa e insomnio</b>",
+            "<b>Anti-inflamatorio, anti-bacterial, anti-viral, anti-tumoral</b>",
+            "Relaja el <b>sistema nervioso y muscular</b>",
+            "Disminuye el <b>colesterol</b>",
+            "Limpia los <b>riñones</b>",
+            "Combate los <b>mareos y fatiga</b>"
+        ],
+        "imagen": "ItemPic_11501.jpg",
+        "precio_xMayor": "$87.800",
+        "precio_xMenor": "$115.700"
+    },
+    "Chocolate": {
+        "nombre": "Gano Schokolade",
+        "cantidad": "20 sachets",
+        "beneficios": [
+            "Mejora el <b>estado de ánimo y los problemas de ansiedad</b>",
+            "Desarrolla <b>claridad mental</b>",
+            "Propiedades <b>antioxidantes</b> y aporte de <b>vitamias E, B1, B2, hierro y calcio</b>",
+            "<b>Anticelilítico</b>",
+            "Elimina <b>grasas</b> y aporta <b>fósforo, potasio y magnesio</b>",
+            "Utilizado cosméticamente para tratar la <b>piel</b>",
+            "Beneficia el <b>tránsito intestinal</b>",
+            "Previene la <b>arterioesclerosis</b>",
+            "Previene algunos tipos de <b>cáncer</b>",
+            "Ayuda al <b>estado animico</b> en periodo <b>pre-menstrual</b>"
+        ],
+        "imagen": "ItemPic_11502.jpg",
+        "precio_xMayor": "$95.800",
+        "precio_xMenor": "$123.700"
+    },
+    "Te": {
+        "nombre": "Oleaf Gano Rooibos Drink",
+        "cantidad": "20 sachets",
+        "beneficios": [
+            "Regula <b>desórdenes metabólicos</b>",
+            "Controla el <b>sobrepeso</b>",
+            "Mejora la <b>calidad de sueño</b>",
+            "Regula las funciones del <b>hígado</b>",
+            "Retarda el <b>envejecimiento</b>",
+            "<b>Anti-inflamatorio</b>",
+            "<b>Diurético</b>",
+            "<b>Analgésico</b>",
+            "Reduce los niveles de <b>grucosa</b>"
+        ],
+        "imagen": "ItemPic_11504.jpg",
+        "precio_xMayor": "$95.800",
+        "precio_xMenor": "$123.700"
+    },
+    "Tinto": {
+        "nombre": "Ganocafe Classic",
+        "cantidad": "30 sachets",
+        "beneficios": [
+            "Regula <b>desórdenes metabólicos</b>",
+            "Efectivo contra los efectos de la <b>intoxicación</b>",
+            "Regula las funciones hepáticas <b>(hígado)</b>",
+            "Regula el sistema renal <b>(Riñones)</b>",
+            "Actúa eficazmente en los <b>intestinos</b>",
+            "Mejora <b>problemas cardíacos</b>",
+            "Mejora la <b>circulación</b>",
+            "<b>Anti-inflamatorio y analgésico</b> (efectivo contra el <b>dolor</b>)",
+            "Diurético (eficaz contra la <b>retención de líquidos</b>)",
+            "Efectivo contra la <b>diabetes</b>"
+        ],
+        "imagen": "ItemPic_11505.jpg",
+        "precio_xMayor": "$87.800",
+        "precio_xMenor": "$115.700"
+    },
+    "Cereal": {
+        "nombre": "Gano C`Real Spirulina",
+        "cantidad": "15 sachets",
+        "beneficios": [
+            "Aumenta la <b>fortaleza y resistencia</b>",
+            "Aumenta los niveles de <b>energía corporal</b>",
+            "Estimula la <b>desintoxicación renal</b>",
+            "Ayuda en el control de niveles elevados de <b>colesterol</b>",
+            "Promueve un <b>sistema inmunológico saludable</b>",
+            "Fortalece la <b>flora intestinal</b>",
+            "Ayuda a la <b>digestión</b> y a un <b>movimiento intestinal saludable</b>",
+            "Contiene <b>carbohidratos complejos</b>",
+            "Contiene vitaminas <b>A, K y vitaminas del complejo B</b>"
+        ],
+        "imagen": "ItemPic_11507.jpg",
+        "precio_xMayor": "$95.800",
+        "precio_xMenor": "$123.700"
+    },
+    "Crema_dental": {
+        "nombre": "Gano Fresh Toothpaste",
+        "cantidad": "1",
+        "beneficios": [
+            "Previene la <b>caries</b>",
+            "Previene la <b>placa dental</b> y la <b>alitosis</b> (mal aliento)",
+            "Previene la <b>gingivitis</b> (sangrado de las encias)",
+            "Fortalece las <b>encias</b> y el <b>esmalte dental</b>",
+            "Trata los <b>dientes sensibles</b>",
+            "<b>Antioxidante</b>",
+            "Ayuda en el proceso de <b>cicatrización</b>",
+            "<b>Anti-microbiano</b>",
+            "<b>Anti-tumoral</b>",
+            "Efectivo para trabajar <b>quemaduras en la piel</b>"
+        ],
+        "imagen": "ItemPic_11302.jpg",
+        "precio_xMayor": "$59.900",
+        "precio_xMenor": "$79.800"
+    },
+    "Jabon": {
+        "nombre": "Gano Transparent Soap",
+        "cantidad": "1",
+        "beneficios": [
+            "Rejuvenece la <b>piel</b>",
+            "<b>Hidrata</b> y <b>limpia</b> profundamente",
+            "<b>Antioxidante</b> y <b>blanqueador</b>",
+            "Elimina el <b>exceso de grasa</b>",
+            "Contiene <b>vitamina E</b>",
+            "Equilibra el <b>PH</b>",
+            "Adecuado incluso para la <b>piel de bebés</b>",
+            "Acción efectiva contra el <b>acné</b>",
+            "Previene y actúa contra la <b>psoriasis, dermatitis y dermatofitosis</b>",
+            "Trata eficientemente la <b>icitiosos congénita, vitiligo y eczemas</b>"
+        ],
+        "imagen": "ItemPic_11303.jpg",
+        "precio_xMayor": "$67.900",
+        "precio_xMenor": "$87.800"
+    },
+    "Shampoo": {
+        "nombre": "Piel&Brillo Shampoo",
+        "cantidad": "300ml",
+        "beneficios": [
+            "<b>Limpia, protege, nutre y fortalece el cuero cabelludo</b>",
+            "Restaura el <b>cabello dañado</b>",
+            "Repara <b>puntas abiertas</b>",
+            "Otorga <b>brillo y sedosidad</b>",
+            "Disminuye la <b>caspa</b>",
+            "Previene enfermedades del cuero cabelludo",
+            "<b>Evita la caída</b> y promueve el nacimiento de <b>cabello nuevo</b>",
+            "Contiene <b>vitamina B5 y vitamina E</b>",
+            "<b>Protege el color</b> natural y artificial",
+            "<b>No contiene sal</b>"
+        ],
+        "imagen": "ItemPic_11305.jpg",
+        "precio_xMayor": "$63.900",
+        "precio_xMenor": "$83.800"
+    },
+    "Acondicionador": {
+        "nombre": "Piel&Brillo Acondicionador",
+        "cantidad": "300ml",
+        "beneficios": [
+            "<b>Limpia, protege, nutre y fortalece el cuero cabelludo</b>",
+            "Restaura el <b>cabello dañado</b>",
+            "Repara <b>puntas abiertas</b>",
+            "Otorga <b>brillo y sedosidad</b>",
+            "Disminuye la <b>caspa</b>",
+            "Previene enfermedades del cuero cabelludo",
+            "<b>Evita la caída</b> y promueve el nacimiento de <b>cabello nuevo</b>",
+            "Contiene <b>vitamina B5 y vitamina E</b>",
+            "<b>Protege el color</b> natural y artificial",
+            "<b>No contiene sal</b>"
+        ],
+        "imagen": "ItemPic_11306.jpg",
+        "precio_xMayor": "$63.900",
+        "precio_xMenor": "$83.800"
+    },
+    "Exfoliante": {
+        "nombre": "Piel&Brillo Exfoliante Corporal",
+        "cantidad": "300ml",
+        "beneficios": [
+            "Retira <b>células muertas</b>",
+            "Estimula la <b>regeneración de la piel</b>",
+            "<b>Despigmenta y humecta</b>",
+            "<b>Desinflama la piel</b>",
+            "Auemnta la producción de <b>colageno</b>",
+            "<b>Desintoxica la piel</b>",
+            "Activa la <b>microcirculación</b>",
+            "<b>Con vitamina E</b>",
+            "Elimina exceso de <b>melanina</b>",
+            "Aumenta <b>firmeza y elasticidad de la piel</b>"
+        ],
+        "imagen": "ItemPic_11307.jpg",
+        "precio_xMayor": "$63.900",
+        "precio_xMenor": "$83.800"
+    },
+    "Ganoderma": {
+        "nombre": "Ganoderma Capsulas",
+        "cantidad": "90 capsulas",
+        "beneficios": [
+            "Promueve la <b>longevidad</b>",
+            "Reduce la <b>fatiga física y mental</b>",
+            "Ayuda al <b>sistema inmune</b>",
+            "Reduce el riesgo y ayuda a combatir el <b>cáncer</b>",
+            "Ayuda a evitar la <b>gripe y resfriados</b>",
+            "Previene <b>enfermedades del corazon y derrame cerebral</b>",
+            "Estimula el <b>metabolismo</b> para <b>regular el peso corporal</b>",
+            "Protege la <b>piel</b> de <b>radicales libres</b>",
+            "Mejora la función de los <b>riñones</b>",
+            "Previene y combate de <b>artritis reumatoide</b>"
+        ],
+        "imagen": "ItemPic_11801.jpg",
+        "precio_xMayor": "$231.500",
+        "precio_xMenor": "$279.300"
+    },
+    "Excellium": {
+        "nombre": "Excellium Capsulas",
+        "cantidad": "90 capsulas",
+        "beneficios": [
+            "Ayuda a mantener los <b>niveles normales de azúcares</b>",
+            "Ayuda a fortalecer el <b>sistema gástrico</b>",
+            "Ayuda a reducir los niveles de <b>colesterol</b>",
+            "Previene la formación de <b>placa en las arterias</b>",
+            "Contiene <b>vitaminas, minerales, proteínas, enzimas y aminoácidos</b>",
+            "Excelente para <b>niños y adultos</b>",
+            "Especial para resistir <b>largas horas de trabajo</b>"
+        ],
+        "imagen": "ItemPic_11803.jpg",
+        "precio_xMayor": "$231.500",
+        "precio_xMenor": "$279.300"
+    },
+    "CordyGold": {
+        "nombre": "CordyGold Capsulas",
+        "cantidad": "60 capsulas",
+        "beneficios": [
+            "Fortalece el <b>sistema inmune</b>",
+            "Potente <b>afrodisíaco</b>",
+            "Mejora la <b>circulación</b>",
+            "Estimula el <b>riego sanguíneo</b> en los <b>genitales</b>",
+            "Aumenta el <b>placer sexual</b> y los <b>niveles de testosterona</b>",
+            "Favorece el <b>rendimiento sexual</b> en <b>hombres y mujeres</b>",
+            "Protege los <b>riñones</b> y regula el <b>cortisol</b>",
+            "Mejora la <b>resistencia</b> y la <b>energía</b>",
+            "Recomendado para la <b>fibromialgia</b> y los <b>altos niveles de estrés</b>",
+            "Estimula la <b>memoria</b>"
+        ],
+        "imagen": "ItemPic_11805.jpg",
+        "precio_xMayor": "$291.300",
+        "precio_xMenor": "$351.100"
+    }
+}
