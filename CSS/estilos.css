@@ -1,0 +1,180 @@
+/* Definición de variables CSS */
+:root {
+    --dark: #1b1e21;      /* Color oscuro */
+    --light: #818182;     /* Color claro */
+    --white: white;       /* Color blanco */
+    --green: #28a745;     /* Color verde */
+}
+
+header {
+    background-color: var(--dark);
+    display: flex;
+    position: sticky;
+    top: 0px;
+    color: var(--light)
+}
+
+main {
+    margin: 50px 5%;
+}
+
+article {
+    margin-bottom: 5%;
+}
+
+footer {
+    font-size: smaller;
+    color: var(--white);
+    background-color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+
+.logo {
+    margin: 1% 3%;
+}
+
+.logo__img {
+    max-width: 70px;
+    min-width: 40px;
+    width: 4%;
+}
+
+.navBar {
+    flex-grow: 2;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.navBar__enlaces {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navBar__menu-hamburguesa {
+    display: none;
+}
+
+.navBar__item {
+    color: var(--light);
+    text-decoration: none;
+    margin-right: 2%;
+}
+
+.texto--blanco:hover {
+    color: var(--white);
+}
+
+.card-productos {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.card-productos__navegacion {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.card-productos__producto {
+    text-decoration: none;
+    color: var(--green);
+    padding: 5px 10px;
+    box-shadow: 0px 0px 2px gray;
+    flex: 0 0 auto;
+}
+
+.fondo--verde:hover {
+    background-color: var(--green);
+}
+
+.card-productos__contenido {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card-productos__imagen {
+    width: 50%;
+    height: 100%;
+    border-radius: 0 0 0 5px;
+}
+
+.card-productos__texto {
+    margin: 2% auto auto 2%;
+}
+
+.etapas {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.etapas__item {
+    border: 1px solid black;
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    background: var(--green);
+    background: linear-gradient(0deg, rgba(40, 167, 69, 1) 0%, rgb(6, 118, 30) 100%);
+    color: var(--white)
+}
+
+.etapas__item:hover {
+    box-shadow: 0 0 10px var(--white) inset;
+}
+
+.etapas__texto {
+    display: none;
+    padding: 10px 5%;
+}
+.foot__enlace {
+    text-decoration: none;
+    color: var(--green);
+}
+
+/* Estilos para la versión móvil */
+@media (max-width: 480px) {
+    
+    .navBar {
+        margin-right: 5%;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+    }
+
+    .navBar__menu-hamburguesa {
+        display: block;
+    }
+
+    .navBar__enlaces {
+        display: none;
+    }
+
+    .navBar__enlaces--desplegable {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        align-items: end;
+    }
+
+    .card-productos__contenido {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-productos__imagen {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px 5px 0 0;
+        margin-top: 10px;
+    }
+
+    .card-productos__texto {
+        margin: 15px;
+    }
+}
