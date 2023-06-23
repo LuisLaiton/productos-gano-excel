@@ -7,6 +7,7 @@ const $NOMBRE = document.querySelector(".card-productos__titulo");
 const $BENEFICIOS = document.querySelector(".card-productos__beneficios");
 const $IMAGEN = document.querySelector(".card-productos__imagen");
 const $PRECIOS = document.querySelector(".card-productos__precios").querySelector("p");
+const $ETAPAS = document.querySelector(".etapas")
 
 // Asignación de eventos a elementos
 $BTN_NAVBAR.onclick = desplegar_menu;
@@ -16,14 +17,17 @@ $ENLACES.forEach(element => {
 $BTN_PRODUCTOS.forEach(element => {
     element.onclick = card_producto;
 });
+$ETAPAS.querySelectorAll(".etapas__item").forEach(element => {
+    element.onclick = etapa;
+});
 
-let productos;
+let datos;
 
 // Obtener datos del archivo JSON
 fetch('https://raw.githubusercontent.com/LuisLaiton/productos-gano-excel/basica/DB/datos.json')
     .then(response => response.json())
     .then(data => {
-        productos = data;
+        datos = data;
     })
     .catch(error => {
         console.error('Error al cargar el archivo JSON:', error);
@@ -45,7 +49,7 @@ function check_ocultar() {
 function card_producto(event) {
     event.preventDefault();
 
-    const $PRODUCTO = productos[event.currentTarget.textContent];
+    const $PRODUCTO = datos[event.currentTarget.textContent];
     const $CANTIDAD = document.createElement("sub");
     const $SUB_TEXT = document.createTextNode(" X " + $PRODUCTO.cantidad);
     const $SUB_PRECIOS = document.createElement("sub");
@@ -66,4 +70,38 @@ function card_producto(event) {
     $PRECIOS.textContent = $PRODUCTO.precio_xMayor + " / ";
     $SUB_PRECIOS.appendChild($SUB_PRECIOS_TEXT);
     $PRECIOS.appendChild($SUB_PRECIOS);
+}
+
+// Función para mostrar información de la etapa
+function etapa(event) {
+    event.preventDefault();
+
+    var elementos = document.getElementsByClassName("etapas__texto");
+
+    // Oculta todos los elementos
+    for (var i = 0; i < elementos.length; i++) {
+        elementos[i].style.display = 'none';
+    }
+
+    // Muestra el elemento correspondiente al botón clickeado
+    switch (event.currentTarget.getAttribute("id")) {
+        case "Btn-exploracion":
+            document.getElementById("Exploracion").style.display = 'block';
+            break;
+        case "Btn-limp-desin":
+            document.getElementById("Limp-desin").style.display = 'block';
+            break;
+        case "Btn-regulacion":
+            document.getElementById("Regulacion").style.display = 'block';
+            break;
+        case "Btn-construccion":
+            document.getElementById("Construccion").style.display = 'block';
+            break;
+        case "Btn-regeneracion":
+            document.getElementById("Regeneracion").style.display = 'block';
+            break;
+        default:
+            alert("Etapa no reconocida")
+            break;
+    }
 }

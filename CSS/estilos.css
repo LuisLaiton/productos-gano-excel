@@ -127,6 +127,10 @@ footer {
     box-shadow: 0 0 10px var(--white) inset;
 }
 
+.etapas__texto {
+    display: none;
+    padding: 10px 5%;
+}
 .foot__enlace {
     text-decoration: none;
     color: var(--green);
