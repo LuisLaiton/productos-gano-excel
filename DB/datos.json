@@ -1,4 +1,23 @@
 {
+    "Colageno": {
+        "nombre": "RESKINE Collagen drink",
+        "cantidad": "10 sachets",
+        "beneficios": [
+            "Ayuda a reducir las <b>arrugas</b> y las <b>lineas de expreción</b>",
+            "<b>Hidrata</b> y aporta <b>elasticidad</b> a la piel",
+            "<b>Alivia el dolor</b> y mejora la movilidad de las <b>articulaciones</b>",
+            "Contribuye a la <b>fortaleza</b> y <b>densidad ósea</b>",
+            "Reduce el riesgo de <b>fracturas</b> y <b>osteoporosis</b>",
+            "Estimula el <b>crecimiento del cabello</b> y <b>fortalece las uñas</b>",
+            "<b>100%</b> colágeno puro de <b>origen marino</b>",
+            "<b>Libre</b> de antibiótico, hormonas y conservantes",
+            "<b>Bajo en calorias</b>, 20 calorías por porción",
+            "<b>Fortalece</b> las defensas del cuerpo"
+        ],
+        "imagen": "ItemPic_11530_Nuevo.jpg",
+        "precio_xMayor": "$183.500",
+        "precio_xMenor": "$238.800"
+    },
     "Mocha": {
         "nombre": "MochaRico",
         "cantidad": "20 sachets",
@@ -14,7 +33,7 @@
             "Mejora la <b>calidad del sueño</b>",
             "Aporta <b>vitamina E, B1, B2 y minerales como el hierro, calcio, zinc, fósforo, potasio y magnesio</b>"
         ],
-        "imagen": "ItemPic_11503_Nuevo.jpg",
+        "imagen": "ItemPic_11503.jpg",
         "precio_xMayor": "$95.800",
         "precio_xMenor": "$123.700"
     },
@@ -31,7 +50,7 @@
             "<b>Diurético natural</b>",
             "Reduce la <b>hipertensión arterial</b>"
         ],
-        "imagen": "ItemPic_11509_Nuevo.jpg",
+        "imagen": "ItemPic_11509.jpg",
         "precio_xMayor": "$95.800",
         "precio_xMenor": "$123.700"
     },
