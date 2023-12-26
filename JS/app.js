@@ -6,7 +6,8 @@ const $BTN_PRODUCTOS = document.querySelectorAll(".card-productos__producto");
 const $NOMBRE = document.querySelector(".card-productos__titulo");
 const $BENEFICIOS = document.querySelector(".card-productos__beneficios");
 const $IMAGEN = document.querySelector(".card-productos__imagen");
-const $PRECIOS = document.querySelector(".card-productos__precios").querySelector("p");
+const $PUNTOS = document.querySelector(".card-productos__precios").querySelectorAll("p")[0];
+const $PRECIOS = document.querySelector(".card-productos__precios").querySelectorAll("p")[1];
 const $ETAPAS = document.querySelector(".etapas")
 
 // Asignación de eventos a elementos
@@ -61,6 +62,8 @@ function card_producto(event) {
     const $SUB_TEXT = document.createTextNode(" X " + $PRODUCTO.cantidad);
     const $SUB_PRECIOS = document.createElement("sub");
     const $SUB_PRECIOS_TEXT = document.createTextNode($PRODUCTO.precio_xMenor);
+    const $SUB_PUNTOS = document.createElement("sub");
+    const $SUB_PUNTOS_TEXT = document.createTextNode(`CV ${$PRODUCTO.CV}`);
 
     // Mostrar el nombre del producto con la cantidad
     $NOMBRE.textContent = $PRODUCTO.nombre;
@@ -77,6 +80,12 @@ function card_producto(event) {
     $PRECIOS.textContent = $PRODUCTO.precio_xMayor + " / ";
     $SUB_PRECIOS.appendChild($SUB_PRECIOS_TEXT);
     $PRECIOS.appendChild($SUB_PRECIOS);
+
+    $PUNTOS.textContent = `PV ${$PRODUCTO.PV} / `;
+    $SUB_PUNTOS.appendChild($SUB_PUNTOS_TEXT);
+    $PUNTOS.appendChild($SUB_PUNTOS);
+    console.log($PUNTOS);
+    console.log(`PV: ${$PRODUCTO.PV}, CV: ${$PRODUCTO.CV}`);
 }
 
 // Función para mostrar información de la etapa
