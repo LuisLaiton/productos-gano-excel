@@ -16,7 +16,9 @@
         ],
         "imagen": "ItemPic_11530_Nuevo.jpg",
         "precio_xMayor": "$183.500",
-        "precio_xMenor": "$238.800"
+        "precio_xMenor": "$238.800",
+        "PV": "31",
+        "CV": "27"
     },
     "Mocha": {
         "nombre": "MochaRico",
@@ -35,7 +37,9 @@
         ],
         "imagen": "ItemPic_11503.jpg",
         "precio_xMayor": "$95.800",
-        "precio_xMenor": "$123.700"
+        "precio_xMenor": "$123.700",
+        "PV": "17",
+        "CV": "14"
     },
     "Latte": {
         "nombre": "LatteRico",
@@ -52,7 +56,9 @@
         ],
         "imagen": "ItemPic_11509.jpg",
         "precio_xMayor": "$95.800",
-        "precio_xMenor": "$123.700"
+        "precio_xMenor": "$123.700",
+        "PV": "17",
+        "CV": "14"
     },
     "3_en_1": {
         "nombre": "Ganocafe 3 en 1",
@@ -71,7 +77,9 @@
         ],
         "imagen": "ItemPic_11501.jpg",
         "precio_xMayor": "$87.800",
-        "precio_xMenor": "$115.700"
+        "precio_xMenor": "$115.700",
+        "PV": "15",
+        "CV": "13"
     },
     "Chocolate": {
         "nombre": "Gano Schokolade",
@@ -90,7 +98,9 @@
         ],
         "imagen": "ItemPic_11502.jpg",
         "precio_xMayor": "$95.800",
-        "precio_xMenor": "$123.700"
+        "precio_xMenor": "$123.700",
+        "PV": "17",
+        "CV": "14"
     },
     "Te": {
         "nombre": "Oleaf Gano Rooibos Drink",
@@ -108,7 +118,9 @@
         ],
         "imagen": "ItemPic_11504.jpg",
         "precio_xMayor": "$95.800",
-        "precio_xMenor": "$123.700"
+        "precio_xMenor": "$123.700",
+        "PV": "17",
+        "CV": "14"
     },
     "Tinto": {
         "nombre": "Ganocafe Classic",
@@ -127,7 +139,9 @@
         ],
         "imagen": "ItemPic_11505.jpg",
         "precio_xMayor": "$87.800",
-        "precio_xMenor": "$115.700"
+        "precio_xMenor": "$115.700",
+        "PV": "15",
+        "CV": "13"
     },
     "Cereal": {
         "nombre": "Gano C`Real Spirulina",
@@ -145,7 +159,9 @@
         ],
         "imagen": "ItemPic_11507.jpg",
         "precio_xMayor": "$95.800",
-        "precio_xMenor": "$123.700"
+        "precio_xMenor": "$123.700",
+        "PV": "17",
+        "CV": "14"
     },
     "Crema_dental": {
         "nombre": "Gano Fresh Toothpaste",
@@ -164,7 +180,9 @@
         ],
         "imagen": "ItemPic_11302.jpg",
         "precio_xMayor": "$59.900",
-        "precio_xMenor": "$79.800"
+        "precio_xMenor": "$79.800",
+        "PV": "11",
+        "CV": "9"
     },
     "Jabon": {
         "nombre": "Gano Transparent Soap",
@@ -183,7 +201,9 @@
         ],
         "imagen": "ItemPic_11303.jpg",
         "precio_xMayor": "$67.900",
-        "precio_xMenor": "$87.800"
+        "precio_xMenor": "$87.800",
+        "PV": "12",
+        "CV": "10"
     },
     "Shampoo": {
         "nombre": "Piel&Brillo Shampoo",
@@ -202,7 +222,9 @@
         ],
         "imagen": "ItemPic_11305.jpg",
         "precio_xMayor": "$63.900",
-        "precio_xMenor": "$83.800"
+        "precio_xMenor": "$83.800",
+        "PV": "11",
+        "CV": "9"
     },
     "Acondicionador": {
         "nombre": "Piel&Brillo Acondicionador",
@@ -221,7 +243,9 @@
         ],
         "imagen": "ItemPic_11306.jpg",
         "precio_xMayor": "$63.900",
-        "precio_xMenor": "$83.800"
+        "precio_xMenor": "$83.800",
+        "PV": "11",
+        "CV": "9"
     },
     "Exfoliante": {
         "nombre": "Piel&Brillo Exfoliante Corporal",
@@ -240,7 +264,9 @@
         ],
         "imagen": "ItemPic_11307.jpg",
         "precio_xMayor": "$63.900",
-        "precio_xMenor": "$83.800"
+        "precio_xMenor": "$83.800",
+        "PV": "11",
+        "CV": "9"
     },
     "Ganoderma": {
         "nombre": "Ganoderma Capsulas",
@@ -259,7 +285,9 @@
         ],
         "imagen": "ItemPic_11801.jpg",
         "precio_xMayor": "$231.500",
-        "precio_xMenor": "$279.300"
+        "precio_xMenor": "$279.300",
+        "PV": "41",
+        "CV": "34"
     },
     "Excellium": {
         "nombre": "Excellium Capsulas",
@@ -275,7 +303,9 @@
         ],
         "imagen": "ItemPic_11803.jpg",
         "precio_xMayor": "$231.500",
-        "precio_xMenor": "$279.300"
+        "precio_xMenor": "$279.300",
+        "PV": "41",
+        "CV": "34"
     },
     "CordyGold": {
         "nombre": "CordyGold Capsulas",
@@ -294,6 +324,8 @@
         ],
         "imagen": "ItemPic_11805.jpg",
         "precio_xMayor": "$291.300",
-        "precio_xMenor": "$351.100"
+        "precio_xMenor": "$351.100",
+        "PV": "49",
+        "CV": "43"
     }
 }

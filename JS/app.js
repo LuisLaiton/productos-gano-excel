@@ -6,7 +6,8 @@ const $BTN_PRODUCTOS = document.querySelectorAll(".card-productos__producto");
 const $NOMBRE = document.querySelector(".card-productos__titulo");
 const $BENEFICIOS = document.querySelector(".card-productos__beneficios");
 const $IMAGEN = document.querySelector(".card-productos__imagen");
-const $PRECIOS = document.querySelector(".card-productos__precios").querySelector("p");
+const $PUNTOS = document.querySelector(".card-productos__precios").querySelectorAll("p")[0];
+const $PRECIOS = document.querySelector(".card-productos__precios").querySelectorAll("p")[1];
 const $ETAPAS = document.querySelector(".etapas")
 
 // Asignación de eventos a elementos
@@ -61,6 +62,8 @@ function card_producto(event) {
     const $SUB_TEXT = document.createTextNode(" X " + $PRODUCTO.cantidad);
     const $SUB_PRECIOS = document.createElement("sub");
     const $SUB_PRECIOS_TEXT = document.createTextNode($PRODUCTO.precio_xMenor);
+    const $SUB_PUNTOS = document.createElement("sub");
+    const $SUB_PUNTOS_TEXT = document.createTextNode(`CV ${$PRODUCTO.CV}`);
 
     // Mostrar el nombre del producto con la cantidad
     $NOMBRE.textContent = $PRODUCTO.nombre;
@@ -77,38 +80,56 @@ function card_producto(event) {
     $PRECIOS.textContent = $PRODUCTO.precio_xMayor + " / ";
     $SUB_PRECIOS.appendChild($SUB_PRECIOS_TEXT);
     $PRECIOS.appendChild($SUB_PRECIOS);
+
+    $PUNTOS.textContent = `PV ${$PRODUCTO.PV} / `;
+    $SUB_PUNTOS.appendChild($SUB_PUNTOS_TEXT);
+    $PUNTOS.appendChild($SUB_PUNTOS);
+    console.log($PUNTOS);
+    console.log(`PV: ${$PRODUCTO.PV}, CV: ${$PRODUCTO.CV}`);
 }
 
 // Función para mostrar información de la etapa
 function etapa(event) {
     event.preventDefault();
 
-    var elementos = document.getElementsByClassName("etapas__texto");
+    let elementos = document.getElementsByClassName("etapas__texto");
 
-    // Oculta todos los elementos
-    for (var i = 0; i < elementos.length; i++) {
-        elementos[i].style.display = 'none';
-    }
-
-    // Muestra el elemento correspondiente al botón clickeado
+    // Define el elemento clickeado para enviarlo a la funcion cambioInfo
     switch (event.currentTarget.getAttribute("id")) {
         case "Btn-exploracion":
-            document.getElementById("Exploracion").style.display = 'block';
+            cambioInfo(elementos, "Exploracion");
             break;
         case "Btn-limp-desin":
-            document.getElementById("Limp-desin").style.display = 'block';
+            cambioInfo(elementos, "Limp-desin");
             break;
         case "Btn-regulacion":
-            document.getElementById("Regulacion").style.display = 'block';
+            cambioInfo(elementos, "Regulacion");
             break;
         case "Btn-construccion":
-            document.getElementById("Construccion").style.display = 'block';
+            cambioInfo(elementos, "Construccion");
             break;
         case "Btn-regeneracion":
-            document.getElementById("Regeneracion").style.display = 'block';
+            cambioInfo(elementos, "Regeneracion");
             break;
         default:
-            alert("Etapa no reconocida")
+            alert("Etapa no reconocida");
             break;
+    }
+}
+
+// Funcion que oculta o muestra la informacion dependiendo del elemento clickeado
+function cambioInfo(elementos, idElemento) {
+    // Almacena la informacion correspondiente
+    let info = document.getElementById(idElemento);
+
+    // Comprueba si el elemento ya esta desplegado para ocultarlo
+    if (info.style.display == 'block') {
+        info.style.display = 'none';
+    } else {
+        // Si es un nuevo elemento ocultara todos los demas y mostrara unicamente el correspondiente
+        for (var i = 0; i < elementos.length; i++) {
+            elementos[i].style.display = 'none';
+        }
+        info.style.display = 'block';
     }
 }

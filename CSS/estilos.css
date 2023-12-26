@@ -110,6 +110,12 @@ footer {
 
 .card-productos__texto {
     margin: 2% auto auto 2%;
+    padding-right: 20px;
+}
+
+.card-productos__precios {
+    display: flex;
+    justify-content: space-between;
 }
 
 .etapas {
