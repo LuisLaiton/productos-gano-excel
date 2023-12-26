@@ -83,32 +83,44 @@ function card_producto(event) {
 function etapa(event) {
     event.preventDefault();
 
-    var elementos = document.getElementsByClassName("etapas__texto");
+    let elementos = document.getElementsByClassName("etapas__texto");
 
-    // Oculta todos los elementos
-    for (var i = 0; i < elementos.length; i++) {
-        elementos[i].style.display = 'none';
-    }
-
-    // Muestra el elemento correspondiente al botón clickeado
+    // Define el elemento clickeado para enviarlo a la funcion cambioInfo
     switch (event.currentTarget.getAttribute("id")) {
         case "Btn-exploracion":
-            document.getElementById("Exploracion").style.display = 'block';
+            cambioInfo(elementos, "Exploracion");
             break;
         case "Btn-limp-desin":
-            document.getElementById("Limp-desin").style.display = 'block';
+            cambioInfo(elementos, "Limp-desin");
             break;
         case "Btn-regulacion":
-            document.getElementById("Regulacion").style.display = 'block';
+            cambioInfo(elementos, "Regulacion");
             break;
         case "Btn-construccion":
-            document.getElementById("Construccion").style.display = 'block';
+            cambioInfo(elementos, "Construccion");
             break;
         case "Btn-regeneracion":
-            document.getElementById("Regeneracion").style.display = 'block';
+            cambioInfo(elementos, "Regeneracion");
             break;
         default:
-            alert("Etapa no reconocida")
+            alert("Etapa no reconocida");
             break;
+    }
+}
+
+// Funcion que oculta o muestra la informacion dependiendo del elemento clickeado
+function cambioInfo(elementos, idElemento) {
+    // Almacena la informacion correspondiente
+    let info = document.getElementById(idElemento);
+
+    // Comprueba si el elemento ya esta desplegado para ocultarlo
+    if (info.style.display == 'block') {
+        info.style.display = 'none';
+    } else {
+        // Si es un nuevo elemento ocultara todos los demas y mostrara unicamente el correspondiente
+        for (var i = 0; i < elementos.length; i++) {
+            elementos[i].style.display = 'none';
+        }
+        info.style.display = 'block';
     }
 }
